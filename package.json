@@ -1,0 +1,17 @@
+{
+  "name": "fullstack-store",
+  "version": "1.0.0",
+  "description": "MERN Stack E-Commerce Store Master Concurrency Controller",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd server && npx nodemon server.js",
+    "client": "cd client && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
